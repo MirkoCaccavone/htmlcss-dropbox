@@ -86,11 +86,13 @@ h1{
 
 .sub-content-jumbo-dx{
     flex-basis: 60%;
+    position: relative;
  
 }
 
 .sub-content-jumbo-dx img{
-    max-width: 100%;
+    max-width: 135%;
+    position: absolute;
 }
 
 .sub-content-jumbo-sx p{
