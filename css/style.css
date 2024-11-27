@@ -110,7 +110,7 @@ h1{
 
 /* section rules */
 
-section{
+.main-section{
     width: 60%;
     margin: 50px auto;
     padding-top: 20px;
@@ -283,4 +283,60 @@ h2{
 .titolo-quarta-section{
     margin-top: 100px;
     margin-bottom: 30px;
+}
+
+/* footer rules */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.upper-container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ul{
+    display: block;
+    flex-basis: 20%;
+}
+
+.grey{
+    color: #989897;
+}
+
+.footer-ul li:first-child{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-ul li{
+    font-size: 13px;
+}
+
+.lower-container{
+    width: 70%;
+    margin: 0 auto;
+    color: #989897;
+    padding-bottom: 30px;
+}
+
+.bordo{
+    width: 100px;
+    border: 1px solid #989897;
+    margin-bottom: 30px;
+}
+
+.fa-earth-americas{
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.fa-caret-up{
+    font-size: 13px;
 }
