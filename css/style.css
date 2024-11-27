@@ -114,9 +114,6 @@ section{
     width: 60%;
     margin: 50px auto;
     padding-top: 20px;
-
-    /* DEBUG */
-    background-color: blue;
 }
 
 .scelta-piano{
@@ -127,10 +124,6 @@ section{
 .piano-offerto{
     flex-basis: 32%;
     border: 1px solid black;
-
-    /* DEBUG */
-    /* height: 500PX; */
-    background-color: red;
 }
 
 .header-colonna{
@@ -193,19 +186,77 @@ h5{
     color:blue;
 }
 
-.azienda a{
+.contattaci{
     text-align: center;
 }
 
 .colonna-orizzontale{
     margin-top: 40px;
     border: 1px solid black;
-    /* DEBUG */
-    background-color: aqua;
-    height: 300px;
 }
 
-.titolo-bottone{
+.contenuto-colonna-orizzontale{
     display: flex;
     justify-content: space-between;
+}
+
+.colonna-orizzontale-sx{
+    flex-basis: 70%;
+    padding: 30px;
+}
+
+.colonna-orizzontale-dx{
+    position: relative;
+    flex-basis: 30%;
+    padding: 30px;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.colonna-orizzontale-sx > span{
+    font-weight: bold;
+}
+
+.colonna-orizzontale-sx > p{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.colonna-orizzontale-dx > a{
+    position: absolute;
+    right: 30px;
+    padding: 10px;
+}
+
+/* seconda section */
+
+.container-seconda-section{
+    display: flex;
+    margin-top: 100px;
+}
+
+.contenuto-sx{
+    flex-basis: 60%;
+}
+
+.img-partner{
+    max-width: 100%;
+}
+
+.contenuto-dx{
+    flex-basis: 40%;
+    padding: 40px;
+}
+
+.contenuto-dx > p{
+    margin-bottom: 40px;
+}
+
+.button-white{
+    text-decoration: none;
+    border: 1px solid rgb(73, 73, 73);
+    color: rgb(73, 73, 73);
+    padding: 10px;
 }
