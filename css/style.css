@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/* button rules */
+.button-blue{
+    background-color: #0061fe;
+    padding: 5px;
+    color: white;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -46,9 +53,11 @@ ul li{
 /* link senza decorazioni */
 .a-none{
     text-decoration: none;
-    color: black;
 }
 
+a{
+    color: black;
+}
 /* main rules */
 
 /* jumbo */
@@ -58,14 +67,51 @@ ul li{
     display: flex;
     justify-content: center;
 
-    /* DEBUG */
-    height: 500px;
 }
 
 .content-jumbo{
     flex-basis: 70%;
-    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 
     /* DEBUG */
     background-color: yellow;
 }
+
+h1{
+    font-size: 50px;
+}
+
+.sub-container-jumbo{
+    display: flex;
+    margin-top: 40px;
+}
+
+.sub-content-jumbo-sx{
+    flex-basis: 40%;
+
+}
+
+.sub-content-jumbo-dx{
+    flex-basis: 60%;
+ 
+}
+
+.sub-content-jumbo-dx img{
+    max-width: 100%;
+}
+
+.sub-content-jumbo-sx p{
+    margin-bottom: 30px;
+}
+
+.sub-content-jumbo-sx div{
+    margin-top: 20px;
+}
+
+.fa-solid{
+    margin-top: 30px;
+    font-size: 35px;
+}
+
