@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.container-sx-header{
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    
+    /* DEBUG */
+    background-color: red;
+}
+
+.img-logo{
+    width: 100px;
+    margin: 10px;
+}
+
+.container-dx-header{
+    display: flex;
+    justify-content: end;
+    flex-basis: 50%;
+    
+
+    /* DEBUG */
+    background-color: green;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+/* link senza decorazioni */
+.a-none{
+    text-decoration: none;
+    color: black;
+}
+
+/* main rules */
+
+/* jumbo */
+
+.jumbo{
+    background-color: #b4d0e6;
+    display: flex;
+    justify-content: center;
+
+    /* DEBUG */
+    height: 500px;
+}
+
+.content-jumbo{
+    flex-basis: 70%;
+    text-align: center;
+
+    /* DEBUG */
+    background-color: yellow;
+}
