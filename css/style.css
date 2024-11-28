@@ -140,7 +140,16 @@ h1{
     padding-top: 20px;
 }
 
+.checkbox li{
+    margin-left: 0;
+}
+
+.main-section > h2{
+    margin-bottom: 50px;
+}
+
 .scelta-piano{
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
