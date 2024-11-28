@@ -113,7 +113,7 @@ h1{
 }
 
 .sub-content-jumbo-dx img{
-    max-width: 135%;
+    max-width: 125%;
     position: absolute;
 }
 
@@ -127,7 +127,7 @@ h1{
 
 /* freccia */
 .jumbo .fa-solid{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 35px;
 }
@@ -142,6 +142,17 @@ h1{
 
 .checkbox li{
     margin-left: 0;
+}
+
+.custom-input {
+    appearance: none;
+    padding: 5px;
+    border: 5px solid #0061fe;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.custom-input:checked {
+    background-color: #0061fe;
 }
 
 .main-section > h2{
