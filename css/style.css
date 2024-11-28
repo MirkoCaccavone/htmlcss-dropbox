@@ -9,18 +9,28 @@
     background-color: #0061fe;
     padding: 5px;
     color: white;
+    text-align: center;
+}
+
+.button-blue:hover{
+    background-color: rgba(5, 82, 248, 0.6);
 }
 
 header{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
 }
 
 .container-sx-header{
     display: flex;
     flex-basis: 50%;
     align-items: center;
+    width: 100%;
 }
 
 .img-logo{
@@ -36,11 +46,13 @@ header{
 
 ul{
     display: flex;
+    height: 100%;
 }
 
 ul li{
     list-style: none;
-    margin: 15px;
+    margin: 0 15px;
+    align-content: center;
 }
 
 
@@ -52,6 +64,16 @@ ul li{
 a{
     color: black;
 }
+
+.link-sottolineato{
+    border-bottom: 3px solid white;
+}
+
+.link-sottolineato:hover{
+    border-bottom: 3px solid black;
+}
+
+
 /* main rules */
 
 /* jumbo */
@@ -114,7 +136,7 @@ h1{
 
 .main-section{
     width: 60%;
-    margin: 50px auto;
+    margin: 100px auto;
     padding-top: 20px;
 }
 
@@ -175,21 +197,13 @@ h4{
     border-bottom: 1px solid grey;
 }
 
-.link-blue{
+.link-blue, .fa-check{
     color: blue;
 }
 
 h5{
     margin: 60px 0 20px;
     font-size: 15px;
-}
-
-.fa-check{
-    color:blue;
-}
-
-.contattaci{
-    text-align: center;
 }
 
 .colonna-orizzontale{
